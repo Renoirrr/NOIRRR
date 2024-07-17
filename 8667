@@ -1,0 +1,82 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>艺术家主页</title>
+    <link rel="stylesheet" href="styles.css"></head><body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#contact">联系</a></li>
+                <li><a href="#blog">其他</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>欢迎来到我的艺术世界</h1>
+        <p>我是[ZHENG]，一名傻啦吧唧的家虎。</p>
+        <img src="your-photo.jpg" alt="艺术家照片">
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="art-category">
+            <h3>Peinture</h3>
+            <div class="art-piece">
+                <img src="painting1.jpg" alt="绘画作品1">
+                <p>作品名称：XXX</p>
+                <p>创作日期：XXXX</p>
+                <p>描述：XXX</p>
+            </div>
+            <!-- 其他绘画作品 -->
+        </div>
+        <div class="art-category">
+            <h3>Photographie</h3>
+            <div class="art-piece">
+                <img src="photo1.jpg" alt="摄影作品1">
+                <p>作品名称：XXX</p>
+                <p>创作日期：XXXX</p>
+                <p>描述：XXX</p>
+            </div>
+            <!-- 其他摄影作品 -->
+        </div>
+        <!-- 其他类别的作品 -->
+    </section>
+
+    <section id="about">
+        <h2>sur moi</h2>
+        <p>[详细的个人介绍]</p>
+        <p>[艺术简历]</p>
+    </section>
+
+    <section id="contact">
+        <h2>Connecter</h2>
+        <form action="contact-form-handler.php" method="post">
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">电子邮件:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">留言:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">发送</button>
+        </form>
+        <p>关注我：</p>
+        <ul>
+            <li><a href="your-instagram-link">Instagram</a></li>
+            <li><a href="your-twitter-link">Twitter</a></li>
+            <li><a href="your-linkedin-link">LinkedIn</a></li>
+            <li><a href="mailto:your-email@example.com">Email</a></li>
+        </ul>
+    </section>
+
+    <section id="blog">
+        <h2>Autre</h2>
+        <!-- 列表 -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [ZHENG]. All rights reserved.</p>
+    </footer></body></html>
